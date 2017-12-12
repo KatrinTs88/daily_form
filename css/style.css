@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+)
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	min-height: 100%;
+}
+body{
+background: linear-gradient(to bottom left, #dd2476, #ff512f);
+font-family: Arial, sans-serif;
+color: #7a7b7f;
+font-size: 14px;
+}
+
+.wrap{
+	width: 40%;
+	margin: 0 auto;
+	background: #fff;
+	margin-top: 100px;
+	padding: 20px 35px 65px;
+	border-radius: 10px;
+}
+.title{
+	display: inline-block;
+	font-size: 24px;
+	color: #1b1c1d;
+}
+.text{
+	font-size: 13px;
+	line-height: 1.5;
+}
+.link{
+	text-decoration: none;
+	color: #ea355a;
+}
+.link:hover{
+	cursor: pointer;
+	color: #bd1962;
+	font-weight: bold;
+	transition: .25s;
+}
+
+.form__group{
+	border: none;
+	padding: 0;
+}
+
+.row{
+	font-size: 0;
+}
+
+
+.form__field,
+.form__button{
+	width: 100%;
+	padding: 15px;
+	display: inline-block;
+	border: none;
+	box-sizing: border-box;
+	margin-top: 15px;
+	border-radius: 5px;
+	background: #f0f0f0;
+}
+.form__field:hover,
+.form__field:active,
+.form__field:focus{
+	background: #faf7f7;
+	outline: none;
+	color: #ea355a;
+}
+
+.form__field-sm{
+	display: inline-block;
+	width: 45%;
+	font-size: 14px;
+}
+.form__field-sm-first{
+	margin-right: 10%;
+}
+
+.form__button{
+	background: #ea355a;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	transition: .3s;
+	border-bottom: 3px solid #bd1962;
+}
+.form__button:hover,
+.form__button:active,
+.form__button:focus{
+	background: #bd1962;
+}
+
+.footer__text{
+	font-size: 12px;
+	line-height: 1.5;
+	margin-top: 25px;
+}
